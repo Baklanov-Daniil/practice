@@ -17,7 +17,7 @@ public static class StringExtensions
         char[] chars = cleaned.ToCharArray();
         Array.Reverse(chars);
         string reversed = new string(chars);
-        
+
         return cleaned == reversed;
     }
 }
