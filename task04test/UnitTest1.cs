@@ -26,16 +26,16 @@ public class SpaceshipTests
         var cruiser = new Cruiser();
         Assert.True(fighter.Speed > cruiser.Speed);
     }
-    [Fact]
 
+    [Fact]
     public void Fighter_ShouldBeWeakerThanCruiser()
     {
         var fighter = new Fighter();
         var cruiser = new Cruiser();
         Assert.True(fighter.FirePower < cruiser.FirePower);
     }
-    [Fact]
 
+    [Fact]
     public void Ships_ShouldExecuteMoveForwardWithoutErrors()
     {
         ISpaceship fighter = new Fighter();
@@ -46,8 +46,8 @@ public class SpaceshipTests
 
         Assert.True(true);
     }
-    [Fact]
 
+    [Fact]
     public void Ships_ShouldExecuteRotateWithoutErrors()
     {
         ISpaceship fighter = new Fighter();
@@ -58,8 +58,8 @@ public class SpaceshipTests
 
         Assert.True(true);
     }
+
     [Fact]
-    
     public void Ships_ShouldExecuteFireWithoutErrors()
     {
         ISpaceship fighter = new Fighter();

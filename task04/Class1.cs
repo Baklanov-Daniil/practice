@@ -32,17 +32,17 @@ public class Fighter : ISpaceship
 {
     public int Speed { get; } = 100;
     public int FirePower { get; } = 50;
-    
+
     public void MoveForward()
     {
         Console.WriteLine($"Истребитель движется вперед со скоростью : {Speed}");
     }
-    
+
     public void Rotate(int angle)
     {
         Console.WriteLine($"Истребитель поворачивается на : {angle}");
     }
-    
+
     public void Fire()
     {
         Console.WriteLine($"Истребитель стреляет c мощностью выстрела : {FirePower}");
