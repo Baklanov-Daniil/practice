@@ -14,17 +14,17 @@ public class Cruiser : ISpaceship
     
     public void MoveForward()
     {
-        Console.WriteLine($"Крейсер движется вперед со скоростью : {Speed}");
+        Console.WriteLine($"Cruiser is moving at speed : {Speed}");
     }
     
     public void Rotate(int angle)
     {
-        Console.WriteLine($"Крейсер поворачивается на : {angle}");
+        Console.WriteLine($"Cruiser rotate at an angle: {angle}");
     }
     
     public void Fire()
     {
-        Console.WriteLine($"Крейсер стреляет c мощностью выстрела: {FirePower}");
+        Console.WriteLine($"Cruiser shoots with power: {FirePower}");
     }
 }
 
@@ -35,16 +35,16 @@ public class Fighter : ISpaceship
 
     public void MoveForward()
     {
-        Console.WriteLine($"Истребитель движется вперед со скоростью : {Speed}");
+        Console.WriteLine($"Fighter is moving at speed : {Speed}");
     }
-
+    
     public void Rotate(int angle)
     {
-        Console.WriteLine($"Истребитель поворачивается на : {angle}");
+        Console.WriteLine($"Fighter rotate at an angle: {angle}");
     }
-
+    
     public void Fire()
     {
-        Console.WriteLine($"Истребитель стреляет c мощностью выстрела : {FirePower}");
+        Console.WriteLine($"Fighter shoots with power: {FirePower}");
     }
 }
