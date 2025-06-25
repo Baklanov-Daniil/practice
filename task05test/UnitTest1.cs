@@ -4,7 +4,7 @@ using Moq;
 public class TestClass
 {
     public int PublicField;
-    private string _privateField;
+    private string? _privateField;
     public int Property { get; set; }
 
     public void Method() { }
